@@ -1,3 +1,9 @@
+// Get the command line arguments.
+var arguments = process.argv;
+
+// Slicing the first 2 arguments as they are not needed.
+var arrayOfNumbers = process.argv.slice(2);
+
 var units = {
   0: "Zero",
   1: "One",
